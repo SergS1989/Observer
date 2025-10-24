@@ -42,4 +42,7 @@ public class WeatherData implements Subiect {
         this.pressure = pressure;
         measurementsChanged();
     }
+    public void getTemperature(){
+        return temperature;
+    }
 }
